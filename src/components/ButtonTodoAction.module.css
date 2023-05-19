@@ -1,0 +1,22 @@
+.boton:hover {
+    cursor: pointer;
+    background-color: #be832480;
+    transition: all ease 0.3s;
+}
+
+.boton {
+    width: 28px;
+    height: 28px;
+    transition: all ease 0.3s;
+    background: #daac6280;
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.done {
+    border: #30353a 2px solid;
+    background-color: green;
+}

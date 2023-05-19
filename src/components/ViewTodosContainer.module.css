@@ -1,0 +1,14 @@
+.todoContainer {
+    min-height: 400px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    /* background-color: #64686d; */
+}
+
+@media (min-width: 992px){
+    .todoContainer {
+        width: 60%;
+        margin: auto;
+    }
+}
